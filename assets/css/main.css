@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("../pic/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+footer{
+	margin:0;
+	padding:0;
+    bottom: 0;
+left: 0;
+
+	box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer {
+    background-color: black;
+    padding: 70px 0
+}
+
+.container {
+    max-width: 1170px;
+    /*margin: auto;*/
+}
+
+ul {
+    list-style: none;
+}
+
+.footer_col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+
+.footer_col h4{
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer_col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer_col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer_col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+    color: #1d1d1d;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer_col ul li a:hover {
+    color: white;
+    padding-left: 8px;
+}
+
+/*responsive*/
+@media(max-width: 767px) {
+    .footer_col {
+        width: 50px;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer_col {
+        width: 100px;
+    }
+}
+
+
+.topnav {
+        overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(0, 195, 255);
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color: black;
+    
+  }
+    img {
+        height: auto;
+        width: 100%;
+      }
+.copyright {
+    text-align: center;
+}
